@@ -1,0 +1,196 @@
+:root {
+    --first-color: #09356c;
+    --second-color: #ffb319;
+    --black: #333333;
+  }
+  /* Font */
+  :root {
+    --body-font: "Montserrat", sans-serif;
+    --big-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 0.938rem;
+    --weight-normal: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+  }
+  section {
+    width: unset;
+    height: unset;
+  }
+  .main__productos {
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    color: var(--first-color);
+  }
+  .breadCrum {
+    width: 80%;
+    margin: auto;
+  }
+  .breadCrum span {
+    font-weight: 700;
+  }
+  .info__producto {
+    width: 80%;
+    margin: auto;
+  }
+  .info__producto .producto__principal .head__producto {
+    display: flex;
+    justify-content: space-between;
+  }
+  .info__producto .producto__principal .head__producto .producto__precio {
+    text-align: right;
+  }
+  .info__producto .producto__principal .head__producto .producto__precio h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--second-color);
+  }
+  .info__producto .producto__principal .imagen__producto {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .info__producto .producto__principal .informacion__producto {
+    color: var(--black);
+  }
+  .info__producto .producto__principal .informacion__producto .info__adicional {
+    display: flex;
+    justify-content: space-between;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .garantia {
+    display: flex;
+    width: 20%;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .garantia
+    img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 2rem;
+    align-self: flex-start;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .garantia
+    .garantia__text
+    * {
+    margin: 0;
+    margin-left: 1rem;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .garantia
+    p {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .garantia
+    span {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 700;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .envio {
+    width: 70%;
+    display: flex;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .envio
+    img {
+    width: 1.75rem;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .envio
+    * {
+    margin-right: 1rem;
+  }
+  .info__producto
+    .producto__principal
+    .informacion__producto
+    .info__adicional
+    .envio
+    span {
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .producto__principal {
+    width: 80vw;
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .main__productos {
+      margin-top: 1rem;
+    }
+    .main__productos .info__producto {
+      height: 45rem;
+      width: 100%;
+    }
+    .main__productos .info__producto .producto__principal {
+      width: 23rem;
+      margin: auto;
+    }
+    .main__productos
+      .info__producto
+      .producto__principal
+      .head__producto
+      .producto__precio {
+      width: 50%;
+    }
+    .main__productos .info__producto .producto__principal .imagen__producto img {
+      width: 80%;
+    }
+    .main__productos
+      .info__producto
+      .producto__principal
+      .informacion__producto
+      .info__adicional {
+      display: grid;
+    }
+    .main__productos
+      .info__producto
+      .producto__principal
+      .informacion__producto
+      .info__adicional
+      * {
+      width: 100%;
+    }
+    .main__productos
+      .info__producto
+      .producto__principal
+      .informacion__producto
+      .info__adicional
+      .envio {
+      align-items: center;
+    }
+  }
+  
