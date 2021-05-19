@@ -315,7 +315,7 @@ function App() {
                   </div>
                 </div>
               </section>
-              {/* <Productos_carousel></Productos_carousel> */}
+              {<Productos_carousel></Productos_carousel>}
               <section id="testimonios">
                 <h2 className="section__title">CLIENTES</h2>
                 <div className="slider__test">
