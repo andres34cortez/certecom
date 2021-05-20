@@ -1,21 +1,22 @@
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import "./App.css";
-import home_sl1 from "./assets/images/home_sl1.svg";
 import check_icon from "./assets/icons/check_icon.svg";
-import beneficios_sl1 from "./assets/images/beneficios_sl1.svg";
 import cog_icon from "./assets/icons/cog_icon.svg";
 import lock_icon from "./assets/icons/lock_icon.svg";
 import tool_icon from "./assets/icons/tool_icon.svg";
+import flecha_izquierda from "./assets/icons/flecha-izquierda.svg";
+import flecha_correcta from "./assets/icons/flecha-correcta.svg";
+
+/* import beneficios_sl1 from "./assets/images/beneficios_sl1.svg";
 import building1_icon from "./assets/icons/building1_icon.svg";
 import call_center_icon from "./assets/icons/call_center_icon.svg";
 import office_icon from "./assets/icons/office_icon.svg";
 import corp_building_icon from "./assets/icons/corp_building_icon.svg";
 import hospital_icon from "./assets/icons/hospital_icon.svg";
-import flecha_izquierda from "./assets/icons/flecha-izquierda.svg";
-import flecha_correcta from "./assets/icons/flecha-correcta.svg";
+import home_sl1 from "./assets/images/home_sl1.svg";
 
-import bocinas from "./assets/images/bocinas.svg";
+ */
 import BaseMap from "./BaseMap";
 
 import Header from "./Header";
