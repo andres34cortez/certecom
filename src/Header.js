@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "./assets/icons/logo.svg";
+import logo from "./assets/icons/logo.a943ca9d.svg";
 import menu from "./assets/icons/menu.svg";
 import right_arrow from "./assets/icons/right_arrow.svg";
 
