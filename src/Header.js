@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "./assets/icons/logo.a943ca9d.svg";
-import menu from "./assets/icons/menu.svg";
-import right_arrow from "./assets/icons/right_arrow.svg";
+import menu from "./assets/icons/menu.e13a75f4.svg";
+import right_arrow from "./assets/icons/right_arrow.0ce8d322.svg";
 
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const Header = () => {
@@ -28,7 +28,8 @@ const Header = () => {
   return (
     <header className="header" id="header">
       <nav className="nav">
-        <img src={logo} className="head__logo" />
+        <img src={logo} className="head__logo" style={{ width: "12.5%" }} />
+        <div style={{ width: "40%" }} />
         <ul className={`nav__menu ${visibleMenu ? "show__menu" : ""}`}>
           <div
             className={`back__button ${visibleMenu ? "show__back" : ""}`}
@@ -54,6 +55,11 @@ const Header = () => {
           <li className="nav__item">
             <a className="nav__link" href="/#servicios">
               Servicios
+            </a>
+          </li>
+          <li className="nav__item">
+            <a className="nav__link" href="/#productos">
+              Productos
             </a>
           </li>
           <li className="nav__item">

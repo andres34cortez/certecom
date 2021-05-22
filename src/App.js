@@ -1,24 +1,14 @@
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import "./App.css";
-import check_icon from "./assets/icons/check_icon.svg";
-import cog_icon from "./assets/icons/cog_icon.svg";
-import lock_icon from "./assets/icons/lock_icon.svg";
-import tool_icon from "./assets/icons/tool_icon.svg";
-import flecha_izquierda from "./assets/icons/flecha-izquierda.svg";
-import flecha_correcta from "./assets/icons/flecha-correcta.svg";
+import check_icon from "./assets/icons/check_icon.afc24bdc.svg";
+import cog_icon from "./assets/icons/cog_icon.58212413.svg";
+import lock_icon from "./assets/icons/lock_icon.f65d45a6.svg";
+import tool_icon from "./assets/icons/tool_icon.92f6f888.svg";
+import flecha_izquierda from "./assets/icons/flecha-izquierda.c37d02d5.svg";
+import flecha_correcta from "./assets/icons/flecha-correcta.b7f95d22.svg";
 
-/* import beneficios_sl1 from "./assets/images/beneficios_sl1.svg";
-import building1_icon from "./assets/icons/building1_icon.svg";
-import call_center_icon from "./assets/icons/call_center_icon.svg";
-import office_icon from "./assets/icons/office_icon.svg";
-import corp_building_icon from "./assets/icons/corp_building_icon.svg";
-import hospital_icon from "./assets/icons/hospital_icon.svg";
-import home_sl1 from "./assets/images/home_sl1.svg";
-
- */
 import BaseMap from "./BaseMap";
-
 import Header from "./Header";
 import Footer from "./Footer";
 import Productos_carousel from "./Productos_carousel";
@@ -28,22 +18,22 @@ import axios from "axios";
 
 import agroamerica from "./assets/images/agroamerica.png";
 import platino from "./assets/images/platino.png";
-import interlogic from "./assets/images/interlogic.png";
-import marex from "./assets/images/marex.PNG";
-import cinepolis from "./assets/images/cinepolis.png";
-import magdalena from "./assets/images/magdalena.png";
-import municipio from "./assets/images/municipio.jpg";
+import interlogic from "./assets/images/interlogic.6663022c.png";
+import marex from "./assets/images/marex.685cf011.PNG";
+import cinepolis from "./assets/images/cinepolis.310e3177.png";
+import magdalena from "./assets/images/magdalena.4a0ff646.png";
+import municipio from "./assets/images/municipio.6cf92dd6.jpg";
 import banasa from "./assets/images/banasa.jpg";
-import caesars from "./assets/images/caesars.jpg";
-import anacafe from "./assets/images/anacafe.png";
-import wendys from "./assets/images/wendys.png";
+import caesars from "./assets/images/caesars.609c8be1.jpg";
+import anacafe from "./assets/images/anacafe.89124d93.png";
+import wendys from "./assets/images/wendys.8266b9cf.png";
 
-import iconos_01 from "./assets/icons/iconos-01.png";
-import iconos_02 from "./assets/icons/iconos-02.png";
-import iconos_03 from "./assets/icons/iconos-03.png";
-import iconos_04 from "./assets/icons/iconos-04.png";
-import iconos_05 from "./assets/icons/iconos-05.png";
-import iconos_06 from "./assets/icons/iconos-06.png";
+import iconos_01 from "./assets/icons/iconos-01.1fdaf9bc.png";
+import iconos_02 from "./assets/icons/iconos-02.a7efaad1.png";
+import iconos_03 from "./assets/icons/iconos-03.d59cd7d3.png";
+import iconos_04 from "./assets/icons/iconos-04.5fe6f1e1.png";
+import iconos_05 from "./assets/icons/iconos-05.1b116ab4.png";
+import iconos_06 from "./assets/icons/iconos-06.26ea2b90.png";
 
 function App() {
   const [testimIndicator, settestimIndicator] = useState(0);
@@ -127,13 +117,12 @@ function App() {
                 </button>
               </div>
             </div>
-            <Header></Header>
+            <Header />
             <main className="main">
               <section id="home">
                 <div className="home__slider">
                   <div className="slide">
-                    <div className="slide__img"></div>
-                    {/* <img className="slide__img" src={home_sl1} /> */}
+                    <div className="slide__img" />
                     <div className="slide__text">
                       <span className="small__text">Tecnología</span>
                       <br />
@@ -208,7 +197,7 @@ function App() {
               <section id="beneficios">
                 <div className="beneficios__grid">
                   <div className="beneficios__slider">
-                    <div className="slide sl1"></div>
+                    <div className="slide sl1" />
                   </div>
                   <div className="beneficios__cards">
                     <div className="card">
@@ -316,7 +305,7 @@ function App() {
                   </div>
                 </div>
               </section>
-              {<Productos_carousel></Productos_carousel>}
+              <Productos_carousel />
               <section id="testimonios">
                 <h2 className="section__title">CLIENTES</h2>
                 <div className="slider__test">

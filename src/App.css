@@ -163,7 +163,8 @@ section#beneficios {
   align-items: center;
 }
 .nav img {
-  width: 12.5%;
+  width: 16px;
+  padding-right: 24px;
 }
 .nav__menu {
   width: 100%;
@@ -173,8 +174,8 @@ section#beneficios {
 }
 .nav__menu .nav__item {
   list-style: none;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
   font-weight: var(--weight-semibold);
   font-size: 1.15rem;
   color: var(--first-color);
@@ -203,7 +204,7 @@ section#beneficios {
 .slide__img {
   width: 100vw;
   height: 100%;
-  background-image: url("./assets/images/home_sl1.svg");
+  background-image: url("./assets/images/home_sl1.a3e12597.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 48px 48px 0px 0;
@@ -369,7 +370,7 @@ section#beneficios {
   border-radius: 58px;
 }
 .sl1 {
-  background-image: url("./assets/images/beneficios_sl1.svg");
+  background-image: url("./assets/images/beneficios_sl1.5eed888a.svg");
   background-repeat: no-repeat;
   background-position-x: 40%;
   background-position-y: 69%;
@@ -620,6 +621,9 @@ section#beneficios {
   transition: all 0.5s;
   padding: 25px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img__cliente {
   width: 10rem !important;
