@@ -498,12 +498,12 @@ section#beneficios {
   border-radius: 24px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
   margin-right: 5%;
-  width: 310px;
+  width: 75vw;
   height: 350px;
   transition: all 0.5s;
 }
 .producto__card img {
-  width: 250px;
+  width: 75px;
   height: 18vw;
   padding: 10%;
   opacity: 0.35;
