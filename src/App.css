@@ -465,10 +465,11 @@ section#beneficios {
   font-weight: var(--weight-bold);
 }
 .productos__slider {
-  width: 85%;
+  max-width: 1280px;
   height: 400px;
   margin: auto;
   display: flex;
+  justify-content: center;
   overflow-y: hidden;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -517,7 +518,9 @@ section#beneficios {
 }
 .slider__prod {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   width: 90%;
   margin: auto;
 }
