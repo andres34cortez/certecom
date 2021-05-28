@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import flecha_izquierda from "./assets/icons/flecha-izquierda.svg";
-import flecha_correcta from "./assets/icons/flecha-correcta.svg";
+import flecha_izquierda from "./assets/icons/flecha-izquierda.c37d02d5.svg";
+import flecha_correcta from "./assets/icons/flecha-correcta.b7f95d22.svg";
 
 /* import bocinas from "./assets/images/bocinas.svg";
 import cables from "./assets/images/cables.svg";
